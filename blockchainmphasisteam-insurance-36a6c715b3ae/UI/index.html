@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance-Home </title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/MainLogin.css">
+    
+    
+    
+     <script src="assets/jsLibraries/jquery-3.2.1.min.js"></script>
+</head>
+
+<body id="main_body">
+    <nav class="navbar navbar-default" id="nav_bar" style="background:black;">
+        <div class="container-fluid">
+            <div class="navbar-header" ><a class="navbar-brand navbar-link" href="#"><i class="fa fa-th" id="bank_icon" style="margin-right:3px;"></i><span id="bankName" style="font-size:17px;">Health Insurance</span></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                                  
+                <li role="presentation" id="d"><a href="index.html" >Home</a></li>
+                     <li role="presentation" id="a"><a href="ViewPolicies.html" >Policies</a></li>
+                     <li role="presentation" id="b"><a href="AdminLanding.html" >Claims</a></li>
+                    <li role="presentation" id="c"><a href="Clients.html">Clients</a></li>
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+   
+   
+ 
+   
+    <div class="imagebanner">
+  <img src="assets/img/healthIns.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1 id="custInfo">Welcome To Health Insurance.</h1>
+    <p>Insurance Solutions implemented on blockchain.</p>
+  </div>
+</div>
+    <div class="container-fluid" id="main_container" >
+        <div class="row">
+        
+        
+         
+            
+   <div class="col-lg-4 col-md-12" id="apply_loan_column" style="margin-top:90px;">
+        <img src="assets/img/ins3.jpeg" class="img-circle" alt="Cinque Terre" width="190" height="176"> 
+            <h3 style="color:#120d7c;margin-top:30px;font-weight: bold;">View All Claims </h3>
+            
+            <p style="color:black;font-size:17px;">View All Claims Raised For Insurance</p>
+                   <br>
+                   <button class="button " id="quotes">View Claims</button>
+            
+                
+      
+              
+              
+                </div>
+            
+          
+                
+                
+                
+                 <div class="col-lg-4 col-md-12" id="apply_loan_column3" style="margin-top:90px;">
+        <img src="assets/img/tx.jpg" class="img-circle" alt="Cinque Terre" width="190" height="176"> 
+            <h3 style="color:#120d7c;margin-top:30px;font-weight: bold;">View Policies </h3>
+            
+            <p style="color:black;font-size:17px;">View All Policies .</p>
+                   <br>
+                   <button class="button " id="calc3">View Policies.</button>
+            
+                
+      
+               
+               
+ 
+ 
+        
+ 
+    
+              
+              
+                </div>
+                
+                
+                
+                 <div class="col-lg-4 col-md-12" id="apply_loan_column3" style="margin-top:90px;">
+        <img src="assets/img/client.jpg" class="img-circle" alt="Cinque Terre" width="190" height="176"> 
+            <h3 style="color:#120d7c;margin-top:30px;font-weight: bold;">View Clients </h3>
+            
+            <p style="color:black;font-size:17px;">View All Clients .</p>
+                   <br>
+                   <button class="button " id="calc2">View Clients.</button>
+            
+                
+      
+               
+               
+ 
+ 
+        
+ 
+    
+              
+              
+                </div>
+            
+            
+           
+               
+    </div>
+    </div>
+     
+    
+   
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+  <script>
+$(document).ready(function(){
+	
+	 
+	 
+	
+	 
+	 //var bank=localStorage.getItem("banksName");
+	 document.getElementById("bankName").innerHTML = "Health Insurance";
+        //$("#main_footer").hide();
+       // document.getElementById("jumbotron_header").innerHTML = "Welcome To "+"ABC Bank";
+       
+	
+
+
+$("#quotes").click(function(){
+	window.location.href="AdminLanding.html";
+});
+
+
+$("#calc3").click(function(){
+	window.location.href="ViewPolicies.html";
+});
+
+$("#calc2").click(function(){
+	window.location.href="Clients.html";
+});
+
+});
+
+
+
+
+        
+
+
+</script>
+
+
+
+<script>
+function MyFunction(){
+	$("#nav_bar2").show();
+}
+
+</script>
+
+
+
+</html>

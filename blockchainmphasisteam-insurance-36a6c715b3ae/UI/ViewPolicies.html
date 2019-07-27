@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance-View All Policies </title>
+  
+    
+     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/MainLogin.css">
+    <script src="assets/jsLibraries/jquery-3.2.1.min.js"></script>
+      
+    
+       <link rel="stylesheet" href="assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.min.css">
+    
+     <script type="text/javascript" src="assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+     
+            <script src="assets/js/easyNotify.js"></script>
+     
+          <script src="assets/jsLibraries/w3.js"></script> 
+     
+      
+   
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body id="main_body">
+   
+   
+   
+      <!--  
+    Header -->
+   
+       <nav class="navbar navbar-default" id="nav_bar" style="background:black;">
+        <div class="container-fluid">
+            <div class="navbar-header" ><a class="navbar-brand navbar-link" href="#"><i class="fa fa-th" id="bank_icon" style="margin-right:3px;"></i><span id="bankName" style="font-size:17px;">Health Insurance</span></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                                   
+                
+                    <li role="presentation" id="d"><a href="index.html" >Home</a></li>
+                     <li role="presentation" id="a"><a href="ViewPolicies.html" >Policies</a></li>
+                     <li role="presentation" id="b"><a href="AdminLanding.html" >Claims</a></li>
+                    <li role="presentation" id="c"><a href="Clients.html">Clients</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+   
+    <div class="imagebanner">
+  <img src="assets/img/healthIns.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1 id="custInfo">Welcome To Health Insurance.</h1>
+    <p>All Claims For Health Insurance.</p>
+  </div>
+</div>
+  
+  
+    
+            <button class="buttonLink" onclick="goBack()" style="margin-left:910px;margin-top:40px;">Go Back</button>
+    
+    <div class="container-fluid" id="main_container" style="margin-top:5px;width:1000px;">
+        
+
+ <h2 style="color:#120d7c;text-align:left;">All Policies</h2>
+ <br>
+  <table class="table-fill" id="viewAllPolicies" style="color:black;border:1px solid;width:1000px;">
+  
+  </table>
+   
+  
+    </div>
+    
+  
+     
+    
+   
+   
+</body>
+<script>
+w3.includeHTML();
+</script>
+
+  
+<script src="assets/js/Properties.js"></script>
+<script src="assets/js/allPolicies.js"></script>
+
+
+
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</html>

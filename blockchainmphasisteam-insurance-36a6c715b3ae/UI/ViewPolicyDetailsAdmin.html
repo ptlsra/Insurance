@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance-Policy Details </title>
+  
+    
+     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/MainLogin.css">
+  <script src="assets/jsLibraries/jquery-3.2.1.min.js"></script>
+      
+         <script src="assets/jsLibraries/jquery-1.11.1.min.js"></script>
+    
+  
+          <script src="assets/jsLibraries/jquery-ui-1.11.1/jquery-ui.min.js"></script>
+ 
+<link rel="stylesheet" href="assets/jsLibraries/jquery-ui-1.11.1/jquery-ui.css" />
+          <script src="assets/jsLibraries/w3.js"></script> 
+     
+      
+   
+</head>
+
+<body id="main_body">
+   
+   
+   
+      <!--  
+    Header -->
+   
+       <nav class="navbar navbar-default" id="nav_bar" style="background:black;">
+        <div class="container-fluid">
+            <div class="navbar-header" ><a class="navbar-brand navbar-link" href="#"><i class="fa fa-th" id="bank_icon" style="margin-right:3px;"></i><span id="bankName" style="font-size:17px;">Health Insurance</span></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                                   
+              <li role="presentation" id="d"><a href="index.html" >Home</a></li>
+                     <li role="presentation" id="a"><a href="ViewPolicies.html" >Policies</a></li>
+                     <li role="presentation" id="b"><a href="AdminLanding.html" >Claims</a></li>
+                    <li role="presentation" id="c"><a href="Clients.html">Clients</a></li>
+                   
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+   
+    <div class="imagebanner">
+  <img src="assets/img/healthIns.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1 id="custInfo">Welcome To Health Insurance.</h1>
+    <p>All Claims For Health Insurance.</p>
+  </div>
+</div>
+  
+  
+    
+            <button class="buttonLink" onclick="goBack()" style="margin-left:910px;margin-top:40px;">Go Back</button>
+    
+    <div class="container-fluid" id="main_container" style="margin-top:5px;width:1000px;">
+        
+
+ <h2 style="color:#120d7c;text-align:left;"id="policyPageTitle">All Claims</h2>
+ <br>
+ <form style="color:black;">
+						<fieldset>
+						<legend>Customer Information:</legend>
+						<br>
+							<div style="width:700px;">
+						
+						 <table  class="tableContent" id="policyTable">
+						 <tr>
+						 <td >Customer Name</td>
+						  <td class="boldStyle" id="customerName" name="customerName">Customer Name</td>
+						 
+						 
+						 <td >Customer Address</td>
+						  <td class="boldStyle" id="customerAddress" name="customerAddress">Customer Name</td>
+						 
+						 </tr>
+						 
+						 <tr>
+						 <td >Sum Insured (USD)</td>
+						  <td class="boldStyle" id="sumInsured" name="sumInsured">Customer Name</td>
+						 
+						 
+						 <td >Scheme </td>
+						  <td class="boldStyle" id="scheme" name="scheme">Customer Name</td>
+						 
+						 </tr>
+						 
+						 <tr>
+						 <td >Tenure </td>
+						  <td class="boldStyle" id="tenure" name="tenure">Customer Name</td>
+						 
+						 
+						 <td >Email ID </td>
+						  <td class="boldStyle" id="email" name="email">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+					
+						  </table>
+						  
+						  </div>
+						  </fieldset>
+						  	 <br></br>
+						  </form>
+						
+					<!-- Policy Information -->	
+						
+							<form style="color:black;">
+						<fieldset>
+						<legend>Policy Information:</legend>
+						<br>
+							<div style="width:700px;">
+						
+						 <table  class="tableContent" id="policyTable">
+						 <tr>
+						 <td >Policy ID</td>
+						  <td class="boldStyle" id="customerPolicyId" name="customerPolicyId">Customer Name</td>
+						 
+						 
+						 <td >Policy Provider</td>
+						  <td class="boldStyle" id="policyProvider" name="policyProvider">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						 <tr>
+						 <td >Insurance Provider</td>
+						  <td class="boldStyle" id="insProvider" name="insProvider">Customer Name</td>
+						 
+						 
+						 <td >TPA Provider</td>
+						  <td class="boldStyle" id="tpaProvider" name="tpaProvider">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						  <tr>
+						 <td > Issued On</td>
+						  <td class="boldStyle" id="policyIssued" name="policyIssued">Customer Name</td>
+						 
+						 
+						 <td >Validity</td>
+						  <td class="boldStyle" id="policyValidity" name="policyValidity">Customer Name</td>
+						 
+						 </tr>
+						 <tr>
+						<td colspan="2">Policy Document</td>
+    <td colspan="2"><a href="#" id="btnShow">View Document</a></td>
+						 
+						 </tr>
+					
+						  </table>
+						  
+						  </div>
+						  </fieldset>
+						  	 <br></br>
+						  </form >
+						<!-- Add Dependents -->
+						<form style="width:690px;" style="color:black;">
+						 <fieldset>
+						    <legend>Dependent Information:</legend>
+							
+							<table  id="depTable" >
+							</table>
+
+						  </fieldset>
+
+						
+</form>
+
+   
+  
+    </div>
+    
+  
+     
+    
+   
+   <div id="dialog" style="display: none;width:700px;" >
+    
+        <iframe id="frame" style="width:600px;height:400px;"></iframe>
+        
+
+</div>
+</body>
+<script>
+w3.includeHTML();
+</script>
+
+  
+<script src="assets/js/Properties.js"></script>
+<script src="assets/js/viewPolicyDetailsAdmin.js"></script>
+
+
+
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</html>

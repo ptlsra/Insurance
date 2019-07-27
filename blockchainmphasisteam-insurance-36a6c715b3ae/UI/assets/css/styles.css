@@ -1,0 +1,388 @@
+i#bank_icon.fa.fa-bank{
+  padding:3px;
+  margin-right:8px;
+  font-size:22px;
+}
+
+
+
+
+i#bank_icon.fa.fa-user-circle{
+  padding:3px;
+  margin-right:8px;
+  font-size:22px;
+}
+
+
+i#home_icon.fa.fa-home{
+  margin-right:8px;
+  font-size:large;
+}
+
+i#tx_icon.fa.fa-history{
+  margin-right:8px;
+  font-size:large;
+}
+
+i#apply_loan_icon.fa.fa-user{
+  margin-right:8px;
+  font-size:large;
+}
+
+i#apply_loan_icon.fa.fa-check-square{
+  margin-right:8px;
+  font-size:large;
+}
+
+i#loan_details_icon.fa.fa-info-circle{
+  margin-right:8px;
+  font-size:large;
+}
+
+
+i#loan_details_icon.fa.fa-check-square{
+  margin-right:8px;
+  font-size:large;
+}
+
+i#dashboard_icon.fa.fa-eye{
+  margin-right:8px;
+  font-size:large;
+}
+
+nav#nav_bar.navbar.navbar-default{
+  padding:10px;
+  margin-bottom:0px;
+  border-radius:0px;
+}
+
+div#jumbotron_div{
+  text-align:center;
+  background:url(../../assets/img/bank1.jpg)no-repeat;
+  background-size:cover;
+  border-radius:5px;
+}
+
+h1#jumbotron_header{
+  font-size:xx-large;
+}
+
+p#jumbotron_para{
+  font-size:medium;
+}
+
+div#jumbotron.jumbotron{
+  background:rgba(70,82,126,0.3);
+  padding:20px;
+}
+
+div#banner_div{
+  background:orange;
+  padding:4px;
+}
+
+a#apply_loan_button.btn.btn-default{
+  background:rgba(42,102,218,0.6);
+}
+
+body#main_body{
+  background:white;
+}
+
+h1#apply_loan_header{
+  color:black;
+  font-family:'Lato';
+  font-size:xx-large;
+}
+
+p#apply_loan_para{
+  color:black;
+}
+
+div#main_container.container-fluid{
+  text-align:center;
+}
+
+i#apply_loan_icon2.fa.fa-user{
+  color:rgb(44,187,178);
+  font-size:60px;
+}
+
+i#apply_loan_icon2.fa.fa-check-square{
+  color:rgb(44,187,178);
+  font-size:60px;
+}
+
+h1#portfolio_header{
+  color:black;
+  font-family:'Lato';
+  font-size:xx-large;
+}
+
+p#portfolio_para{
+  color:black;
+}
+
+i#portfolio_icon.glyphicon.glyphicon-star{
+  font-size:60px;
+}
+
+i#portfolio_icon.fa.fa-info-circle{
+  font-size:60px;
+  color:rgb(44,187,178);
+}
+
+button.btn.btn-default{
+  background:rgb(26,162,191);
+}
+
+button#loan_apply_button.btn.btn-default{
+}
+
+a#loan_apply_button.btn.btn-default{
+  background:rgb(44,187,178);
+}
+
+a#view_portfolio_button.btn.btn-default{
+  background:rgb(44,187,178);
+}
+
+div#apply_loan_column.col-lg-4.col-md-12{
+  margin-top:32px;
+}
+
+div#portfolio_column.col-lg-4.col-md-12{
+  margin-top:32px;
+}
+
+div#view_dashboard_column.col-lg-4.col-md-12{
+  margin-top:32px;
+}
+
+h1#dashboard_header{
+  font-size:xx-large;
+  color:black;
+  font-family:'Lato';
+}
+
+p#dashboard_para{
+  color:black;
+}
+
+i#dashboard_icon_eye.fa.fa-eye{
+  color:rgb(44,187,178);
+  font-size:60px;
+}
+
+button#dashboard_button.btn.btn-default{
+  background:rgb(44,187,178);
+}
+
+i#dashboard_icon_barchart.fa.fa-bar-chart{
+  font-size:60px;
+  color:rgb(44,187,178);
+}
+
+i#dashboard_icon.fa.fa-bar-chart{
+  margin-right:8px;
+  font-size:large;
+}
+
+
+
+footer#main_footer{
+  margin-top:210px;
+  padding:20px;
+  background:black;
+  text-align:center;
+  width:1400px;
+}
+
+a#dashboard_button.btn.btn-default{
+  background:rgb(44,187,178);
+}
+
+
+
+ .title {
+  color: #444;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0 30px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+
+.container {
+margin-top: 20px;
+border-radius: 2px 2px 5px 5px;
+ font-size:16px;
+  width: 90%;
+  max-width: 390px;
+	margin-left:380px;
+      padding: 10px 50px;
+border-radius: 2px 2px 5px 5px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  
+  .container3 {
+margin-top: 20px;
+border-radius: 2px 2px 5px 5px;
+ font-size:16px;
+  width: 90%;
+  max-width: 1400px;
+	margin-left:100px;
+      padding: 10px 50px;
+border-radius: 2px 2px 5px 5px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  
+
+
+#portfolio {
+margin-top: 20px;
+border-radius: 2px 2px 5px 5px;
+ font-size:16px;
+  width: 90%;
+  max-width: 800px;
+	margin-left:350px;
+      padding: 10px 50px;
+border-radius: 2px 2px 5px 5px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  #requestTable {
+margin-top: 20px;
+border-radius: 2px 2px 5px 5px;
+ font-size:16px;
+  width: 90%;
+  max-width: 1200px;
+	margin-left:150px;
+      padding: 10px 50px;
+border-radius: 2px 2px 5px 5px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  #requestTable input {
+  border:2px solid;
+  }
+  
+  
+  
+
+
+table {
+	
+	width: 100%;
+	text-align: left;
+}
+
+th, td {
+	padding: 10px 10px;
+}
+
+th {
+	color: #666;
+	background: #ccc none repeat-x scroll left top;
+}
+
+td {
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+a{
+	
+	color:black;
+}
+
+a:hover {
+	color: #FF6D29;
+}
+
+a:focus {
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -120px;
+  padding: 7px;
+  width: 600px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance-Final Approval Pending </title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/MainLogin.css">
+    
+    
+    
+    <script src="assets/jsLibraries/jquery-3.2.1.min.js"></script>
+      
+         <script src="assets/jsLibraries/jquery-1.11.1.min.js"></script>
+    
+  
+          <script src="assets/jsLibraries/jquery-ui-1.11.1/jquery-ui.min.js"></script>
+ 
+<link rel="stylesheet" href="assets/jsLibraries/jquery-ui-1.11.1/jquery-ui.css" />
+      
+</head>
+
+<body id="main_body">
+    <nav class="navbar navbar-default" id="nav_bar" style="background:black;">
+        <div class="container-fluid">
+            <div class="navbar-header" ><a class="navbar-brand navbar-link" href="#"><i class="fa fa-th" id="bank_icon" style="margin-right:3px;"></i><span id="bankName" style="font-size:17px;">Health Insurance</span></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                                  
+                
+                   <li role="presentation" id="d"><a href="index.html" >Home</a></li>
+                     <li role="presentation" id="a"><a href="ViewPolicies.html" >Policies</a></li>
+                     <li role="presentation" id="b"><a href="AdminLanding.html" >Claims</a></li>
+                    <li role="presentation" id="c"><a href="Clients.html">Clients</a></li>
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+   
+   
+ 
+   
+    <div class="imagebanner">
+  <img src="assets/img/healthIns.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1 id="custInfo">Welcome To Health Insurance.</h1>
+    <p>Insurance Solutions implemented on blockchain.</p>
+  </div>
+</div>
+    <div class="container-fluid" id="main_container" >
+    <br>
+          						<h2 class="title" id="policyPageTitle" style="text-align:left;"><a href="#">All T </a></h2>
+     
+     <br>
+               						<h4 style="color:black;text-align:left;margin-left:120px;">Policy Information :</h4>
+     
+     
+							<form>
+						<br>
+							<div style="width:800px;color:black;margin-left:120px;">
+						
+						 <table  class="tableContent" id="policyTable">
+						 <tr>
+						 <td >Policy ID</td>
+						  <td class="boldStyle" id="customerPolicyId" name="customerPolicyId">Customer Name</td>
+						 
+						 
+						 <td >Policy Provider</td>
+						  <td class="boldStyle" id="policyProvider" name="policyProvider">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						 <tr>
+						 <td >Insurance Provider</td>
+						  <td class="boldStyle" id="insProvider" name="insProvider">Customer Name</td>
+						 
+						 
+						 <td >TPA Provider</td>
+						  <td class="boldStyle" id="tpaProvider" name="tpaProvider">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						  <tr>
+						 <td > Issued On</td>
+						  <td class="boldStyle" id="policyIssued" name="policyIssued">Customer Name</td>
+						 
+						 
+						 <td >Validity</td>
+						  <td class="boldStyle" id="policyValidity" name="policyValidity">Customer Name</td>
+						 
+						 </tr>
+						 <tr>
+						<td colspan="2">Policy Document</td>
+    <td colspan="2"><a href="#" id="btnShow">View Document</a></td>
+						 
+						 </tr>
+					
+						  </table>
+						  
+						  </div>
+						  	 
+						  </form>
+					<br>	  
+						   
+							<h4 style="color:black;text-align:left;margin-left:120px;">Dependent Information :</h4>
+						   
+						 
+						  	<form style="width:800px;color:black;margin-left:120px;">
+							
+							<table  id="depTable" >
+							</table>
+
+						
+
+						
+</form>
+
+
+
+
+<br>
+
+               	<h4 style="color:black;text-align:left;margin-left:120px;">Claim Information :</h4>
+
+<form style="width:820px;color:black;margin-left:120px;">
+							
+							<table id="claimInfo">
+							
+							 <tr>
+						 <td >Claim ID:</td>
+						  <td class="boldStyle" id="claimId" name="claimId">Customer Name</td>
+						 
+						 
+						 <td >Claim Estimate (USD)</td>
+						  <td class="boldStyle" id="claimEstimate" name="claimEstimate">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						  <tr>
+						 <td >Policy Holder :</td>
+						  <td class="boldStyle" id="policyHolderName" name="policyHolderName">Customer Name</td>
+						 
+						 
+						 <td >Claim  For</td>
+						  <td class="boldStyle" id="patientName" name="patientName">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						 <tr>
+						    <td>Claim Amount (USD)</td>
+						    
+						    <td  class="boldStyle" id="claimAmount">Final Approval Pending</td>
+						    
+						    
+						<td>Estimate Document</td>
+						    
+  							 <td ><a href="#" id="btnShow3">View Document</a></td>
+						 
+						 
+						 </tr>
+						 
+						  <tr>
+						   <td>Bill</td>
+						    
+  							 <td ><a href="#" id="btnShow2">View Document</a></td>
+						   
+						    <td >Claim Status</td>
+						    
+						    <td class="boldStyle">Final Approval Pending </td>
+						
+						 
+						 
+						 </tr>
+						 
+						
+						 
+					
+							</table>
+							
+							<input type="text" name="MclaimId" id="MclaimId"></input>
+							<input type="text" name="MpolicyId" id="MpolicyId"></input>
+							<input type="button" class="ReqDetailsSubmit" value="Send Final Approval For Claim" id="finalApprovalButton"></input>
+
+
+						
+</form>
+
+               
+    </div>
+   
+     <div id="dialog" style="display: none;width:700px;" >
+    
+        <iframe id="frame" style="width:600px;height:400px;"></iframe>
+        
+
+</div>
+
+ <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background:white;color:black;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Transaction Status</h4>
+        </div>
+        <div class="modal-body">
+          <p>Transaction Successfull with TxID:</p>
+          <p id="txId"></p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="txModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background:white;color:black;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Transaction Status</h4>
+        </div>
+        <div class="modal-body">
+          <p>Processing Request .....</p>
+          <p id="txId"></p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+    
+    
+   
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  
+
+<script src="assets/js/Properties.js"></script>
+<script src="assets/js/finalApprovalPending.js"></script>
+
+   <script src="assets/js/Properties.js"></script>
+<script src="assets/js/finalApprovalPost.js"></script>
+    
+</body>
+</html>
+
+
